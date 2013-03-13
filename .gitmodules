@@ -10,3 +10,9 @@
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
 	url = https://github.com/plasticboy/vim-markdown.git
+[submodule "bundle/vim-markdown-jekyll"]
+	path = bundle/vim-markdown-jekyll
+	url = git@github.com:PProvost/vim-markdown-jekyll.git
+[submodule "bundle/vim-liquid"]
+	path = bundle/vim-liquid
+	url = git@github.com:PProvost/git@github.com:tpope/vim-liquid.git
