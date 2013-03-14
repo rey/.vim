@@ -1,12 +1,12 @@
-[submodule "bundle/ctrlp.vim"]
-	path = bundle/ctrlp.vim
-	url = git@github.com:kien/ctrlp.vim.git
 [submodule "bundle/vim-powerline"]
 	path = bundle/vim-powerline
 	url = git@github.com:Lokaltog/vim-powerline.git
+[submodule "bundle/ctrlp.vim"]
+	path = bundle/ctrlp.vim
+	url = git@github.com:kien/ctrlp.vim.git
 [submodule "bundle/vim-markdown-jekyll"]
 	path = bundle/vim-markdown-jekyll
 	url = git@github.com:PProvost/vim-markdown-jekyll.git
 [submodule "bundle/vim-liquid"]
 	path = bundle/vim-liquid
-	url = git@github.com:PProvost/git@github.com:tpope/vim-liquid.git
+	url = git@github.com:tpope/vim-liquid.git
