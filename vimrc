@@ -28,8 +28,17 @@ set laststatus=2
 set cursorline
 hi CursorLine term=bold cterm=none ctermbg=darkred ctermfg=white
 
+" set the cursor
+hi Cursor guifg=white guibg=red
+hi iCursor guifg=white guibg=red
+
+
 " commands
 :command WQ wq
 :command Wq wq
 :command W w
 :command Q q
+
+" put those annoying swp files elsewhere
+set backupdir=~/.vim/backup/
+set directory=~/.vim/backup/
