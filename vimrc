@@ -27,3 +27,9 @@ set laststatus=2
 " highlight current line -- default kinda hurts my eyes
 set cursorline
 hi CursorLine term=bold cterm=none ctermbg=darkred ctermfg=white
+
+" commands
+:command WQ wq
+:command Wq wq
+:command W w
+:command Q q
