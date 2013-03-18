@@ -42,3 +42,6 @@ hi iCursor guifg=white guibg=red
 " put those annoying swp files elsewhere
 set backupdir=~/.vim/backup/
 set directory=~/.vim/backup/
+
+set list
+set listchars=eol:¬
