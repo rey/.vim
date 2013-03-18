@@ -29,8 +29,8 @@ set cursorline
 " hi CursorLine term=bold cterm=none ctermbg=darkred ctermfg=white
 
 " set the cursor
-hi Cursor guifg=white
-hi iCursor guifg=white
+" hi Cursor guifg=white
+" hi iCursor guifg=white
 
 
 " commands
