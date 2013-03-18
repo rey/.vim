@@ -26,11 +26,11 @@ set laststatus=2
 
 " highlight current line -- default kinda hurts my eyes
 set cursorline
-hi CursorLine term=bold cterm=none ctermbg=darkred ctermfg=white
+" hi CursorLine term=bold cterm=none ctermbg=darkred ctermfg=white
 
 " set the cursor
-hi Cursor guifg=white guibg=red
-hi iCursor guifg=white guibg=red
+hi Cursor guifg=white
+hi iCursor guifg=white
 
 
 " commands
