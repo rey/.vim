@@ -45,3 +45,9 @@ set directory=~/.vim/backup/
 
 set list
 set listchars=eol:¬
+
+if $TERM == "xterm-256color"
+    set t_Co=256
+  endif
+
+colorscheme hybrid
