@@ -15,6 +15,8 @@ set laststatus=2                  " Always show the status line, also needed for
 set cursorline                    " Highlight the current line
 set list                          " Displays whitespace
 set listchars=eol:¬               " Set end of line character
+set visualbell                    " Silence!
+set noerrorbells                  " Silence!
 set backupdir=~/.vim/backup/      " Move backup files to /backup/
 set directory=~/.vim/backup/      " Move swp files to /backup/
 
