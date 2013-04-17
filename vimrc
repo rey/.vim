@@ -1,37 +1,23 @@
-" pathogen bits
-execute pathogen#infect()
+set nocompatible                  " This option stops vim from behaving in a strongly vi -compatible way
 
-" stuff from that `coming home to vim` blog post
-syntax on
-filetype plugin indent on
-set nocompatible
-set modelines=0
+execute pathogen#infect()         " Pathogen engage
 
-" set line numbers
-set number
+syntax on                         " Turn on vim's syntax highlighting
+filetype plugin indent on         " Enable file type detection
 
-" set tabs
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
-set expandtab
-
-" set tabs for specific filetypes
-autocmd Filetype html setlocal ts=2 sw=2 expandtab
-autocmd Filetype sass setlocal ts=2 sw=2 expandtab
-autocmd Filetype ruby setlocal ts=2 sw=2 expandtab
-
-" needed for powerline to show
-set laststatus=2
-
-" highlight current line -- default kinda hurts my eyes
-set cursorline
-" hi CursorLine term=bold cterm=none ctermbg=darkred ctermfg=white
-
-" set the cursor
-" hi Cursor guifg=white
-" hi iCursor guifg=white
-
+set nocompatible                  " This option stops vim from behaving in a strongly vi -compatible way
+set nomodeline                    " This option will simply turn off modeline parsing altogether
+set number                        " Show line numbers all of the times
+set tabstop=2                     " How many columns a tab counts for
+set shiftwidth=2                  " Control how many columns text is indented with the reindent operations
+set softtabstop=2                 " Control how many columns vim uses when you hit tab in insert mode
+set expandtab                     " Hitting tab in insert mode will produce the approproate number of spaces
+set laststatus=2                  " Always show the status line, also needed for powerline
+set cursorline                    " Highlight the current line
+set list                          " Displays whitespace
+set listchars=eol:¬               " Set end of line character
+set backupdir=~/.vim/backup/      " Move backup files to /backup/
+set directory=~/.vim/backup/      " Move swp files to /backup/
 
 " commands
 :command WQ wq
@@ -39,15 +25,8 @@ set cursorline
 :command W w
 :command Q q
 
-" put those annoying swp files elsewhere
-set backupdir=~/.vim/backup/
-set directory=~/.vim/backup/
-
-set list
-set listchars=eol:¬
-
 if $TERM == "xterm-256color"
-    set t_Co=256
-  endif
+  set t_Co=256
+endif
 
 colorscheme hybrid
