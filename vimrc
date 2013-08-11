@@ -5,6 +5,8 @@ execute pathogen#infect()
 syntax on                         " Turn on vim's syntax highlighting
 filetype plugin indent on         " Enable file type detection
 
+let g:airline_theme='bubblegum'
+
 set nomodeline                    " This option will simply turn off modeline parsing altogether
 set number                        " Show line numbers all of the times
 set tabstop=2                     " How many columns a tab counts for
