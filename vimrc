@@ -5,10 +5,6 @@ execute pathogen#infect()
 syntax on                         " Turn on vim's syntax highlighting
 filetype plugin indent on         " Enable file type detection
 
-let g:airline_theme='bubblegum'
-let g:airline_left_sep=''
-let g:airline_right_sep=''
-
 set nomodeline                    " This option will simply turn off modeline parsing altogether
 set number                        " Show line numbers all of the times
 set tabstop=2                     " How many columns a tab counts for
@@ -34,4 +30,8 @@ if $TERM == "xterm-256color"
   set t_Co=256
 endif
 
-colorscheme hybrid
+let g:airline_theme='bubblegum'   " vim-airline: Use the `bubblegum` theme (https://github.com/bling/vim-airline/wiki/Screenshots)
+let g:airline_left_sep=''         " vim-airline: Disable the left arrow
+let g:airline_right_sep=''        " vim-airline: Disable the right arrow
+
+colorscheme hybrid                " Use the `hybrid` colourscheme
