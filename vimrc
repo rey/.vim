@@ -10,7 +10,7 @@ set number                        " Show line numbers all of the times
 set tabstop=2                     " How many columns a tab counts for
 set shiftwidth=2                  " Control how many columns text is indented with the reindent operations
 set softtabstop=2                 " Control how many columns vim uses when you hit tab in insert mode
-set expandtab                     " Hitting tab in insert mode will produce the approproate number of spaces
+set expandtab                     " Hitting tab in insert mode will produce the appropriate number of spaces
 set laststatus=2                  " Always show the status line, also needed for powerline
 set cursorline                    " Highlight the current line
 set list                          " Displays whitespace
