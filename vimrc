@@ -6,6 +6,8 @@ syntax on                         " Turn on vim's syntax highlighting
 filetype plugin indent on         " Enable file type detection
 
 let g:airline_theme='bubblegum'
+let g:airline_left_sep=''
+let g:airline_right_sep=''
 
 set nomodeline                    " This option will simply turn off modeline parsing altogether
 set number                        " Show line numbers all of the times
