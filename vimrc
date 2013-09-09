@@ -34,5 +34,10 @@ let g:airline_theme='bubblegum'   " vim-airline: Use the `bubblegum` theme (http
 let g:airline_left_sep=''         " vim-airline: Disable the left arrow
 let g:airline_right_sep=''        " vim-airline: Disable the right arrow
 
+" ctrlp
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\.bundle$\|\.sass-cache$\|\vendor$'
+\ }
+
 set t_Co=256                      " Force vim to use 256 colours
 colorscheme hybrid                " Use the `hybrid` colourscheme
