@@ -18,6 +18,8 @@ set listchars=eol:¬               " Set end of line character
 set visualbell                    " Silence!
 set noerrorbells                  " Silence!
 set hlsearch                      " Highlight searches
+set tw=80                         " Text width of 80 characters
+set wrap                          " Lines longer than width of the window will wrap
 set ttimeoutlen=50                " No delay after hitting ESC
 set ignorecase                    " Ignore case when searching
 set backupdir=~/.vim/backup/      " Move backup files to /backup/
