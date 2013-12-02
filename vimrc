@@ -5,6 +5,7 @@ execute pathogen#infect()
 syntax on                         " Turn on vim's syntax highlighting
 filetype plugin indent on         " Enable file type detection
 
+set encoding=utf-8                " Use UTF-8 internally
 set nomodeline                    " This option will simply turn off modeline parsing altogether
 set number                        " Show line numbers all of the times
 set tabstop=2                     " How many columns a tab counts for
@@ -18,7 +19,6 @@ set listchars=eol:¬               " Set end of line character
 set visualbell                    " Silence!
 set noerrorbells                  " Silence!
 set hlsearch                      " Highlight searches
-set tw=80                         " Text width of 80 characters
 set wrap                          " Lines longer than width of the window will wrap
 set ttimeoutlen=50                " No delay after hitting ESC
 set ignorecase                    " Ignore case when searching
