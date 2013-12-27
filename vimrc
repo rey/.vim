@@ -5,7 +5,7 @@ execute pathogen#infect()
 syntax on                         " Turn on vim's syntax highlighting
 filetype plugin indent on         " Enable file type detection
 
-set term=screen-256color          " Set the correct term
+set term=xterm-256color           " Set the correct term
 set t_Co=256                      " Force vim to use 256 colours
 
 set cursorline                    " Highlight the current line
