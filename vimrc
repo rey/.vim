@@ -37,14 +37,14 @@ set directory=~/.vim/backup/      " Move swp files to /backup/
 
 :map Q <Nop>
 
-" airline
-let g:airline_theme='bubblegum'   " vim-airline: Use the `bubblegum` theme (https://github.com/bling/vim-airline/wiki/Screenshots)
-let g:airline_left_sep=''         " vim-airline: Disable the left arrow
-let g:airline_right_sep=''        " vim-airline: Disable the right arrow
+" lightline
+" let g:lightline = {
+" \ 'colorscheme': 'jellybeans',
+" \ }
 
 " ctrlp
 let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\.bundle$\|\.sass-cache$\|\vendor$'
+\ 'dir':  '\.bundle$\|\.sass-cache$\|\vendor$'
 \ }
 
 colorscheme hybrid                " Use the `hybrid` colourscheme
