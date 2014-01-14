@@ -9,4 +9,4 @@
 	url = git@github.com:scrooloose/syntastic.git
 [submodule "bundle/lightline.vim"]
 	path = bundle/lightline.vim
-	url = git@github.com:itchyny/lightline.vim.git
+	url = https://github.com/itchyny/lightline.vim.git
