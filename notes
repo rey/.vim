@@ -38,3 +38,6 @@ CTRL + ww Jump between windows
 
 CTRL + o  open a file in [choose flavour]
 
+
+
+:nohls to unhighlight search terms

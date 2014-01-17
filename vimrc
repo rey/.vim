@@ -13,6 +13,7 @@ set encoding=utf-8                " Use UTF-8 internally
 set expandtab                     " Hitting tab in insert mode will produce the appropriate number of spaces
 set hlsearch                      " Highlight searches
 set ignorecase                    " Ignore case when searching
+set incsearch                     " start searching when you type the first character of the search string
 set laststatus=2                  " Always show the status line, also needed for powerline
 set list                          " Displays whitespace
 set listchars=eol:¬               " Set end of line character
