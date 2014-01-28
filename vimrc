@@ -10,7 +10,7 @@ set t_Co=256                      " Force vim to use 256 colours
 
 set cursorline                    " Highlight the current line
 set encoding=utf-8                " Use UTF-8 internally
-set expandtab                     " Hitting tab in insert mode will produce the appropriate number of spaces
+set expandtab                     " Tabs are spaces
 set hlsearch                      " Highlight searches
 set ignorecase                    " Ignore case when searching
 set incsearch                     " start searching when you type the first character of the search string
