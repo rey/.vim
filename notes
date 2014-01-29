@@ -11,6 +11,7 @@ u         Undo
 CTRL + R  Redo
 /         Search forward
 ?         Search backward
+CTRL + U/D Big scroll up/down
 
 ## INSERT
 
