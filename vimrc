@@ -22,6 +22,7 @@ set noerrorbells                  " Silence!
 set nomodeline                    " This option will simply turn off modeline parsing altogether
 set number                        " Show line numbers all of the times
 set shiftwidth=2                  " Control how many columns text is indented with the reindent operations
+set smartcase                     " Pay attention if you put caps in your search term
 set softtabstop=2                 " Control how many columns vim uses when you hit tab in insert mode
 set tabstop=2                     " How many columns a tab counts for
 set ttimeoutlen=50                " No delay after hitting ESC
