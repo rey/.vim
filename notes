@@ -40,5 +40,6 @@ CTRL + ww Jump between windows
 CTRL + o  open a file in [choose flavour]
 
 
+ctrl + z to suspend vim, fg to resume!
 
 :nohls to unhighlight search terms
