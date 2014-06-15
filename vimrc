@@ -22,6 +22,7 @@ set listchars=eol:¬               " Set end of line character
 set noerrorbells                  " Silence!
 set nomodeline                    " This option will simply turn off modeline parsing altogether
 set number                        " Show line numbers all of the times
+" set scrolloff=3                   " More space around cursor when scrolling
 set shiftwidth=2                  " Control how many columns text is indented with the reindent operations
 set smartcase                     " Pay attention if you put caps in your search term
 set softtabstop=2                 " Control how many columns vim uses when you hit tab in insert mode
