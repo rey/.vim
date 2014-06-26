@@ -10,9 +10,10 @@ filetype plugin indent on         " Enable file type detection
 
 set autoindent
 set cursorline                    " Highlight the current line
-set fileencoding=utf-8            " The encoding written to file
 set encoding=utf-8                " Use UTF-8 internally
 set expandtab                     " Tabs are spaces
+set fileencoding=utf-8            " The encoding written to file
+set fileformat=unix               " That LF life, son
 set hlsearch                      " Highlight searches
 set ignorecase                    " Ignore case when searching
 set incsearch                     " start searching when you type the first character of the search string
@@ -41,6 +42,7 @@ set directory=~/.vim/backup/      " Move swp files to /backup/
 :command Q q
 :command Strip %s/\s\+$//         " `:Strip` will kill errant whitespace
 
+" mappings
 :map Q <Nop>
 
 " lightline
