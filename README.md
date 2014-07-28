@@ -1,5 +1,3 @@
- My .vim stuff
-
 ## Get the config
 
     cd ~
