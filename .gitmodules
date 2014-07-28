@@ -10,3 +10,6 @@
 [submodule "bundle/lightline.vim"]
 	path = bundle/lightline.vim
 	url = https://github.com/itchyny/lightline.vim.git
+[submodule "bundle/vim-commentary"]
+	path = bundle/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
