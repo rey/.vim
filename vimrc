@@ -27,11 +27,17 @@ set scrolloff=3                   " More space around cursor when scrolling
 set shiftwidth=2                  " Control how many columns text is indented with the reindent operations
 set smartcase                     " Pay attention if you put caps in your search term
 set softtabstop=2                 " Control how many columns vim uses when you hit tab in insert mode
+set splitbelow                    " Open new panes below
+set splitright                    " Open new panes right
 set tabstop=2                     " How many columns a tab counts for
 set textwidth=80                  " Let's try a textwidth (again)
 set ttimeoutlen=50                " No delay after hitting ESC
 set visualbell                    " Silence!
 set wrap                          " Lines longer than width of the window will wrap
+
+" Open new split panes to right and bottom, which feels more natural
+set splitbelow
+set splitright
 
 set backupdir=~/.vim/backup/      " Move backup files to /backup/
 set directory=~/.vim/backup/      " Move swp files to /backup/
