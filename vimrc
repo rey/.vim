@@ -9,6 +9,7 @@ filetype plugin indent on         " Enable file type detection
 " set t_Co=256                      " Force vim to use 256 colours
 
 set autoindent
+set backspace=2                   " Make backspace work like you'd expect it to
 set cursorline                    " Highlight the current line
 set encoding=utf-8                " Use UTF-8 internally
 set expandtab                     " Tabs are spaces
