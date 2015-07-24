@@ -36,10 +36,6 @@ set ttimeoutlen=50                " No delay after hitting ESC
 set visualbell                    " Silence!
 set wrap                          " Lines longer than width of the window will wrap
 
-" Open new split panes to right and bottom, which feels more natural
-set splitbelow
-set splitright
-
 set backupdir=~/.vim/backup/      " Move backup files to /backup/
 set directory=~/.vim/backup/      " Move swp files to /backup/
 
