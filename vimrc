@@ -1,5 +1,3 @@
-set nocompatible                  " This option stops vim from behaving in a strongly vi -compatible way
-
 syntax on                         " Turn on vim's syntax highlighting
 filetype plugin indent on         " Enable file type detection
 
@@ -34,31 +32,30 @@ set ttimeoutlen=50                " No delay after hitting ESC
 set visualbell                    " Silence!
 set wrap                          " Lines longer than width of the window will wrap
 
+" backups
 set backupdir=~/.vim/backup/      " Move backup files to /backup/
 set directory=~/.vim/backup/      " Move swp files to /backup/
 
 " commands
-:command WQ wq
-:command Wq wq
-:command W w
-:command Q q
-:command Strip %s/\s\+$//         " `:Strip` will kill errant whitespace
+command WQ wq
+command Wq wq
+command W w
+command Q q
+command Strip %s/\s\+$//         " `:Strip` will kill errant whitespace
 
 " mappings
-:map Q <Nop>
-
-" lightline
-" let g:lightline = {
-" \ 'colorscheme': 'jellybeans',
-" \ }
+map q <Nop>                      " No more recording
+map Q <Nop>                      " No more Ex mode
 
 " ctrlp
 let g:ctrlp_custom_ignore = {
-\ 'dir':  '\.bundle$\|\.sass-cache$\|\vendor$'
+\ 'dir':  'node_modules\|.sass-cache\|vendor$'
 \ }
 
+" colours
 colorscheme hybrid                " Use the `hybrid` colourscheme
 
+" plugins
 call plug#begin('~/.vim/plugins')
 Plug 'kien/ctrlp.vim'
 Plug 'scrooloose/syntastic'
