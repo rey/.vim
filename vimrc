@@ -1,7 +1,5 @@
 set nocompatible                  " This option stops vim from behaving in a strongly vi -compatible way
 
-execute pathogen#infect()
-
 syntax on                         " Turn on vim's syntax highlighting
 filetype plugin indent on         " Enable file type detection
 
@@ -60,3 +58,10 @@ let g:ctrlp_custom_ignore = {
 \ }
 
 colorscheme hybrid                " Use the `hybrid` colourscheme
+
+call plug#begin('~/.vim/plugins')
+Plug 'kien/ctrlp.vim'
+Plug 'scrooloose/syntastic'
+Plug 'itchyny/lightline.vim'
+Plug 'tpope/vim-commentary'
+call plug#end()
