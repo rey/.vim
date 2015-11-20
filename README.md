@@ -13,7 +13,6 @@ These are the plugins I use:
 * [lightline.vim](https://github.com/itchyny/lightline.vim)
 * [syntastic](https://github.com/scrooloose/syntastic)
 * [vim-commentary](https://github.com/tpope/vim-commentary)
-* [vim-liquid](https://github.com/tpope/vim-liquid)
 
 ## Commands
 
