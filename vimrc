@@ -41,11 +41,11 @@ command WQ wq
 command Wq wq
 command W w
 command Q q
-command Strip %s/\s\+$//         " `:Strip` will kill errant whitespace
+command Strip %s/\s\+$//          " `:Strip` will kill errant whitespace
 
 " mappings
-map q <Nop>                      " No more recording
-map Q <Nop>                      " No more Ex mode
+map q <Nop>                       " No more recording
+map Q <Nop>                       " No more Ex mode
 
 " ctrlp
 let g:ctrlp_custom_ignore = {
