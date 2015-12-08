@@ -1,9 +1,6 @@
 syntax on                         " Turn on vim's syntax highlighting
 filetype plugin indent on         " Enable file type detection
 
-" set term=xterm-256color           " Set the correct term
-" set t_Co=256                      " Force vim to use 256 colours
-
 set autoindent
 set backspace=2                   " Make backspace work like you'd expect it to
 set cursorline                    " Highlight the current line
