@@ -57,5 +57,6 @@ call plug#begin('~/.vim/plugins')
 Plug 'kien/ctrlp.vim'
 Plug 'scrooloose/syntastic'
 Plug 'itchyny/lightline.vim'
+Plug 'itchyny/vim-cursorword'
 Plug 'tpope/vim-commentary'
 call plug#end()
