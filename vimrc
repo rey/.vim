@@ -26,7 +26,7 @@ set splitright                    " Open new panes right
 set tabstop=2                     " How many columns a tab counts for
 set textwidth=80                  " Let's try a textwidth (again)
 set ttimeoutlen=50                " No delay after hitting ESC
-set novisualbell                    " Silence!
+set novisualbell                  " Silence!
 set wrap                          " Lines longer than width of the window will wrap
 
 " backups
