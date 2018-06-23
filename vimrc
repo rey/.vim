@@ -12,6 +12,7 @@ set hlsearch                      " Highlight searches
 set ignorecase                    " Ignore case when searching
 set incsearch                     " start searching when you type the first character of the search string
 set laststatus=2                  " Always show the status line, also needed for powerline
+set linebreak                     " Don't break break lines at the window width -- causes some words to split across two lines
 set list                          " Displays whitespace
 set listchars=eol:¬               " Set end of line character
 set noerrorbells                  " Silence!
@@ -24,7 +25,7 @@ set softtabstop=2                 " Control how many columns vim uses when you h
 set splitbelow                    " Open new panes below
 set splitright                    " Open new panes right
 set tabstop=2                     " How many columns a tab counts for
-set textwidth=80                  " Let's try a textwidth (again)
+" set textwidth=80                  " Let's try a textwidth (again)
 set ttimeoutlen=50                " No delay after hitting ESC
 set novisualbell                  " Silence!
 set wrap                          " Lines longer than width of the window will wrap
