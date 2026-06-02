@@ -59,8 +59,13 @@ colorscheme hybrid                " Use the `hybrid` colourscheme
 " plugins
 call plug#begin('~/.vim/plugins')
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'scrooloose/syntastic'
+Plug 'neomake/neomake'
 Plug 'itchyny/lightline.vim'
 Plug 'itchyny/vim-cursorword'
 Plug 'tpope/vim-commentary'
 call plug#end()
+
+" lint on save
+if exists('*neomake#configure#automake')
+  call neomake#configure#automake('w')
+endif
