@@ -35,15 +35,18 @@ set backupdir=~/.vim/backup/      " Move backup files to /backup/
 set directory=~/.vim/backup/      " Move swp files to /backup/
 
 " commands
-command WQ wq
-command Wq wq
-command W w
-command Q q
-command Strip %s/\s\+$//          " `:Strip` will kill errant whitespace
+command! WQ wq
+command! Wq wq
+command! W w
+command! Q q
+" `:Strip` will kill errant whitespace
+command! Strip %s/\s\+$//
 
 " mappings
-map q <Nop>                       " No more recording
-map Q <Nop>                       " No more Ex mode
+" No more recording
+map q <Nop>
+" No more Ex mode
+map Q <Nop>
 
 " ctrlp
 let g:ctrlp_custom_ignore = {
@@ -55,7 +58,7 @@ colorscheme hybrid                " Use the `hybrid` colourscheme
 
 " plugins
 call plug#begin('~/.vim/plugins')
-Plug 'kien/ctrlp.vim'
+Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/syntastic'
 Plug 'itchyny/lightline.vim'
 Plug 'itchyny/vim-cursorword'
