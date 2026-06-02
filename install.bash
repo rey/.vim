@@ -1,4 +1,4 @@
 #!/bin/bash
 
-ln -s ~/.vim/vimrc ~/.vimrc
+ln -sf ~/.vim/vimrc ~/.vimrc
 vim +PlugInstall +qall
