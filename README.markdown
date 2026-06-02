@@ -9,10 +9,11 @@
 
 These are the plugins I use:
 
-* [ctrlp.vim](https://github.com/kien/ctrlp.vim)
+* [ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim)
 * [lightline.vim](https://github.com/itchyny/lightline.vim)
-* [syntastic](https://github.com/scrooloose/syntastic)
+* [neomake](https://github.com/neomake/neomake)
 * [vim-commentary](https://github.com/tpope/vim-commentary)
+* [vim-cursorword](https://github.com/itchyny/vim-cursorword)
 
 ## Commands
 
