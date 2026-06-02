@@ -1,9 +1,7 @@
 ## Get the config
 
-    cd ~
     git clone https://github.com/rey/.vim.git ~/.vim
-    cd ~/.vim
-    sh install.sh
+    bash ~/.vim/install.sh
 
 ## Plugins
 
