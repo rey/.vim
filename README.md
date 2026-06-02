@@ -4,7 +4,7 @@
 
 ```
 git clone https://github.com/rey/.vim.git ~/.vim
-bash ~/.vim/install.sh
+bash ~/.vim/install.bash
 ```
 
 ## Plugins
