@@ -25,7 +25,7 @@ set softtabstop=2                 " Control how many columns vim uses when you h
 set splitbelow                    " Open new panes below
 set splitright                    " Open new panes right
 set tabstop=2                     " How many columns a tab counts for
-" set textwidth=80                  " Let's try a textwidth (again)
+set colorcolumn=80                " Soft ruler at 80 cols (no hard wrap)
 set ttimeoutlen=50                " No delay after hitting ESC
 set novisualbell                  " Silence!
 set wrap                          " Lines longer than width of the window will wrap
